@@ -1,0 +1,94 @@
+
+.gridcontainer {
+    display: grid;
+    /* grid-template-columns: 100px 10fr; */
+    grid-template-columns: 120px 10fr;
+    /* grid-template-rows: 1fr 1fr 8fr; */
+    
+    background-image: linear-gradient( rgb(91, 180, 231),  rgb(185, 214, 231));
+}
+
+.gridcontainer>div a img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    width: 120px;
+    height: 58px;
+    margin-left: auto;
+    margin-right: 0;
+    display: block;
+}
+
+.logo {
+    /* display: block; */
+    grid-column: 1;
+    grid-row: 2;
+    max-height: 100px;
+
+    display: block;
+}
+#span1{
+    display: inline-block;
+    padding: 8px;
+    text-align: left;
+}
+.box1 {
+    grid-column: 2 / 7;
+    grid-row: 2;
+    vertical-align: middle;
+    text-align: center;
+    height: 100px; 
+}
+
+.box2 {
+    grid-column: 2 / 7;
+    grid-row: 1;
+    vertical-align: middle;
+    text-align: center;
+    /* max-height: 100px; */
+}
+
+.box3 {
+    grid-column: 1;
+    grid-row: 3;
+    /* max-height: 100px; */
+}
+.box4 {
+    grid-column: 2/7;
+    grid-row: 3/10;
+    /* max-height: 100px; */
+}
+
+.d {
+    grid-column: 1;
+    grid-row: 3/6;
+    max-height: 100px;
+}
+
+/* admin drpdown */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /* background-color: #555; */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 2px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-image: linear-gradient(  rgb(185, 214, 231),rgb(91, 180, 231),  rgb(185, 214, 231));
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

@@ -1,0 +1,195 @@
+#main {
+	width: 80%;
+	padding: 20px;
+	margin: 1% auto;
+}
+#main1 {
+	width: 90%;
+	padding: 20px;
+	margin: 1% auto;
+}
+#main-small{
+	width: 30%;
+	padding: 20px;
+	margin: 1% auto;
+}
+.main-small{
+	width: 20%;
+	padding: 20px;
+	margin: 1% auto;
+}
+table.timecard {
+	margin: auto;
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #fff; /*for older IE*/
+	/* border-style: hidden; */
+}
+
+table.timecard caption.caption {
+	background-color: #f79646;
+	color: #fff;
+	font-size: x-large;
+	font-weight: bold;
+	letter-spacing: .3em;
+}
+
+table.timecard thead th {
+    padding: 10px;
+    background-color: rgba(113, 191, 240, 0.534);
+    /* background-color: rgb(215, 226, 233); */
+	/* background-color: #fde9d9; */
+	font-size: 16px;
+}
+
+/* table.timecard thead th#thDay {
+	width: 40%;	
+}
+
+table.timecard thead th#thRegular, table.timecard thead th#thOvertime, table.timecard thead th#thTotal {
+	width: 20%;
+} */
+
+table.timecard th, table.timecard td {
+	padding: 8px;
+	border-width: 1px;
+	border-style: solid;
+    /* border-color: #f79646 #ccc; */
+    border-color: #ccc;
+}
+
+table.timecard td {
+	text-align: right;
+}
+
+table.timecard tbody th {
+	text-align: left;
+	font-weight: normal;
+}
+
+/* table.timecard tfoot {
+	font-weight: bold;
+	font-size: large;
+	background-color: #687886;
+	color: #fff;
+} */
+
+
+table.timecard tr:nth-child(even) {
+    background-color: rgba(113, 191, 240, 0.288);
+    /* background-color: rgb(234, 236, 238); */
+	/* background-color: #fde9d9; */
+}
+.btn-update{
+	border: none;
+	padding: 6px;
+	background-color:rgb(119, 175, 240);
+	border-radius: 4px;
+	cursor: pointer;
+}
+.margin{
+	margin-left: 200px;
+}
+.margin1{
+	margin-left: 365px;
+	margin-right: -50px;
+	padding: 15px;
+	padding-left: 18px;
+	padding-right: 18px;
+	background-color:rgb(86, 156, 236);
+}
+.btn-delete{
+	border: none;
+	padding: 6px;
+	background-color:rgb(243, 137, 50);
+	border-radius: 4px;
+	cursor: pointer;
+}
+.btn-third{
+	/* border:1px solid  #ccc; */
+	border: none;
+	padding: 6px;
+	/* background-color: white; */
+	background-color:rgb(243, 191, 149);
+	border-radius: 4px;
+	cursor: pointer;
+}
+.left{
+	float: left;
+	width: 20%;
+	margin-left: 20px;
+	margin-top: -20px;
+}
+.left label{
+	padding:5px;
+
+}
+table.timecard.left {
+	margin-left: 10%;
+	width: 40%;
+	border-collapse: collapse;
+	border: 1px solid #fff; /*for older IE*/
+	/* border-style: hidden; */
+	
+   height:100%;
+}
+#left{
+	margin-left: 15%;
+}
+
+/* modal */
+
+table.timecard-modal {
+	margin: auto;
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #fff; /*for older IE*/
+	/* border-style: hidden; */
+}
+
+
+
+table.timecard-modal thead th {
+    padding: 10px;
+    /* background-color: rgb(215, 226, 233); */
+	/* background-color: #fde9d9; */
+	font-size: 14px;
+}
+
+/* table.timecard thead th#thDay {
+	width: 40%;	
+}
+
+table.timecard thead th#thRegular, table.timecard thead th#thOvertime, table.timecard thead th#thTotal {
+	width: 20%;
+} */
+
+table.timecard-modal th, table.timecard-modal td {
+	padding: 8px;
+	border-width: 1px;
+	border-style: solid;
+    /* border-color: #f79646 #ccc; */
+    border-color: #ccc;
+}
+
+table.timecard-modal td {
+	text-align: right;
+}
+
+table.timecard-modal tbody th {
+	text-align: left;
+	font-weight: normal;
+}
+.main-small-right {
+    width: 30%;
+    padding: 20px;
+    margin: 1% 100px;
+}
+.right h2 {
+    margin-left: 10%;
+    width: 400px;
+    margin-top: 0;
+}
+.h-left{
+	margin-top: 27px;
+}
